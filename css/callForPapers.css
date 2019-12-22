@@ -953,17 +953,35 @@ p{
   /* font-size: 1.2em; */
 }
 
-/*footer*/
-footer{
-
-  background: #101010;
-  color: white;
-  bottom: 0;
-  height: auto;
-  bottom: 0;
-  -webkit-border-radius: 10px 10px 0px 0px;
+#title{
+text-align: center;
+font-size: 66px;
+font-style: bold;
+background-color: #22889a;
+color: white;
+-webkit-border-radius: 10px 10px 10px 10px;
 -moz-border-radius: 10px 10px 10px 10px;
 border-radius: 10px 10px 10px 10px;
+}
+
+/*footer*/
+footer{
+  position:absolute;
+  background: #101010;
+  color: white;
+  bottom: auto;
+  width: 1350px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+-moz-border-radius: 10px 10px 0px 0px;
+border-radius: 10px 10px 0px 0px;
+}
+
+.icon-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+   margin:5px;
 }
 
 .icon{
@@ -988,4 +1006,9 @@ border-radius: 10px 10px 10px 10px;
   font-style: bold;
   background-color: #22889a;
   color: white;
+}
+
+#p-top{
+  text-align: center;
+  margin: 80px;
 }
