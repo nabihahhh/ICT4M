@@ -1840,6 +1840,12 @@ footer{
   color: #ababab;
 }
 
+marquee{
+  background-color: RGB(71, 57, 54);
+  color: white;
+  padding: 2px;
+}
+
 .contact{
   text-align: center;
   position: relative;
