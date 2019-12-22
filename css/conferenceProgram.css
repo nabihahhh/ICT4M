@@ -9,6 +9,7 @@ ol {
     font-family: 'Open Sans', sans-serif;
     background: white;
     width: auto;
+    z-index: -1;
   }
 
 .menu {
