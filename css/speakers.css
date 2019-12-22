@@ -951,7 +951,6 @@ a {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 
-
 }
 
 .modal-content1 {
@@ -1119,10 +1118,9 @@ img{
 
  /*footer*/
  footer{
-   position:relative;
+   position:absolute;
    background: #101010;
    color: white;
-   bottom: auto;
    width: 1350px;
    -webkit-border-radius: 10px 10px 0px 0px;
  -moz-border-radius: 10px 10px 0px 0px;
@@ -1135,7 +1133,6 @@ img{
    align-items: center;
    justify-content: center;
    margin:5px;
-   position: relative;
  }
 
  .icon{
@@ -1151,6 +1148,7 @@ img{
    text-align: center;
    margin-left: 55px;
    color: #ababab;
+   position: relative;
  }
  /**/
 
