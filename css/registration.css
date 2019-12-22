@@ -983,6 +983,9 @@ input[type="radio"]{
   font-size: 20px;
   right: 100px;
   z-index: 0;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
 }
 /*footer*/
 footer{
