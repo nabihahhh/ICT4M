@@ -19,6 +19,7 @@ ol {
      -moz-border-radius: 10px 10px 0px 0px;
      border-radius: 10px 10px 0px 0px;
      background: white;
+     position: relative;
   }
 
 
@@ -1063,23 +1064,85 @@ img{
     cursor: pointer;
 }
 
+.speakers-container{
+  position: relative;
+  left: 90px;
+}
+/*quotes-box*/
+
+.square-brackets-quote {
+  display: relative;
+  font-family: sans-serif;
+  margin: 1em;
+  max-width: 50em;
+  margin-top: auto;
+  font-size: 0.7em !important;
+  margin-right: -10px;
+  margin-left: 10px;
+}
+
+.square-brackets-quote p{
+ left: 0px;
+ bottom: 60px;
+}
+
+.square-brackets-quote blockquote {
+  border: solid 3px #1DB5C9;
+  display: inline-block;
+  margin: 0;
+  padding: 1em;
+  position: relative;
+  height: 80px;
+  left: 280px;
+}
+.square-brackets-quote blockquote:before {
+  background-color: white;
+  bottom: -1em;
+  content: "";
+  left: 2em;
+  position: absolute;
+  right: 2em;
+  top: -1em;
+}
+.square-brackets-quote blockquote cite {
+  color: #1DB5C9;
+  display: block;
+  font-size: small;
+  font-style: italic;
+  left:  140px;
+  bottom: 120px;
+}
+.square-brackets-quote blockquote > * {
+  position: relative;
+  z-index: 1;
+}
+/**/
+
  /*footer*/
  footer{
+   position:relative;
    background: #101010;
    color: white;
-   bottom: 0;
-   height: auto;
-   bottom: 0;
-
+   bottom: auto;
+   width: 1350px;
    -webkit-border-radius: 10px 10px 0px 0px;
- -moz-border-radius: 10px 10px 10px 10px;
- border-radius: 10px 10px 10px 10px;
+ -moz-border-radius: 10px 10px 0px 0px;
+ border-radius: 10px 10px 0px 0px;
+ }
+
+ .icon-container{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin:5px;
+   position: relative;
  }
 
  .icon{
    margin-top: 20px;
-   float: right;
-
+   height: 20px;
+   width: 20px;
  }
 
  .copyright-note{
@@ -1103,3 +1166,24 @@ img{
  -moz-border-radius: 10px 10px 10px 10px;
  border-radius: 10px 10px 10px 10px;
  }
+h2{
+  text-shadow: 3px 1px #e4e3e3;
+}
+
+ h3{
+   background-color: #e4e3e3;
+ }
+
+ p{
+  margin: 80px;
+}
+
+.img-container{
+  width: 130px;
+  height: 150px;
+}
+
+.img-container2{
+  width: 130px;
+  height: 200px;
+}
