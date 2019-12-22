@@ -9,7 +9,6 @@ ol {
     font-family: 'Open Sans', sans-serif;
     background: white;
     width: auto;
-    z-index: -1;
   }
 
 .menu {
@@ -932,6 +931,7 @@ h4{
   margin-left:25%;
   margin-right:25%;;
   background-color:#e8ebec;
+  z-index: -1;
 }
 table td {
   border: 1px solid black;
