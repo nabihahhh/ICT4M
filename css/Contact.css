@@ -1859,6 +1859,11 @@ border-radius: 10px 10px 0px 0px;
   left:220px;
 }
 
+a{
+  text-decoration: none;
+  color: RGB(23, 171, 147);
+}
+
 .address{
   border-top: 6px solid #22889a;
   background-color: #ECF0F1;
