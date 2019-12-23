@@ -1845,11 +1845,12 @@ border-radius: 10px 10px 0px 0px;
 }
 /**/
 
-marquee{
+.greet{
   background-color: RGB(71, 57, 54);
   color: white;
   padding: 2px;
   z-index: -1;
+  text-align: center;
 }
 
 .contact{
