@@ -1810,25 +1810,29 @@ ol {
 /**content*/
 
 /*footer*/
-
 footer{
-
+  position:absolute;
   background: #101010;
   color: white;
-  bottom: 0;
-  height: auto;
-  bottom: 0;
+  bottom: auto;
+  width: 1350px;
   -webkit-border-radius: 10px 10px 0px 0px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  border-radius: 10px 10px 10px 10px;
-
+-moz-border-radius: 10px 10px 0px 0px;
+border-radius: 10px 10px 0px 0px;
 }
 
-
+.icon-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+   margin:5px;
+}
 
 .icon{
   margin-top: 20px;
   position: relative;
+
 }
 
 .copyright-note{
@@ -1839,6 +1843,7 @@ footer{
   margin-left: 55px;
   color: #ababab;
 }
+/**/
 
 marquee{
   background-color: RGB(71, 57, 54);
